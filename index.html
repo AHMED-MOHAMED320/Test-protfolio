@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Splash&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="hi">
+            <p>hi,</p>
+            <p>
+            i'm ahmed mohamed,<br>
+            web developer.</p>
+            <p>You can see my career here</p>
+        </div>
+        <nav class="header_nav">
+            <div class="logo">
+                <p>A.M</p>
+            </div>
+            <ul>
+                <a href="#">
+                <li>home</li>
+                </a>
+                <a href="#">
+                <li>about</li>
+                </a>
+                <a href="#">
+                <li>roadmap</li>
+                </a>
+                <a href="#">
+                <li>skills</li>
+                </a>
+                <a href="#">
+                <li>projects</li>
+                </a>
+            </ul>
+
+        </nav>
+
+        <div class="svgheader">
+            <img src="undraw_add_information_j2wg.svg" alt="">
+        </div>
+        <aside>
+            <ul>
+                <li>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </li>
+                <li>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </li>
+                <li>
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </li>
+                <li class="end">
+                    <span span>
+                </li>
+            </ul>
+        </aside>
+
+        <div class="overview">
+            <div class="stat">
+                <p>statistics</p>
+                <ion-icon name="cellular-outline"></ion-icon>
+            </div>
+            <div class="hour">
+                <ion-icon name="time-outline"></ion-icon>
+                <p>20 hour</p>
+            </div>
+            <div class="day">
+                <ion-icon name="calendar-number-outline"></ion-icon>
+                <p>3 day</p>
+            </div>
+            <div class="num_problem" style="text-align:center">
+                <ion-icon name="code-slash-outline"></ion-icon>
+
+                <p>2 problem <br> solving</p>
+            </div>
+        </div>
+
+        <div class="s-nav">
+            <ul>
+                <li class="list">
+                    <a href="#">
+                    <span class="icon"><ion-icon name="cellular-outline"></ion-icon></span>
+                    <span class="text">Skills</span>
+                    </a>
+                </li>
+    
+                
+                <li class="list">
+                    <a href="#">
+                    <span class="icon"><ion-icon name="footsteps-outline"></ion-icon></span>
+                    <span class="text">Roadmap</span>
+                    </a>
+                </li>
+    
+                
+                <li class="list active">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+    
+                
+                <li class="list ">
+                    <a href="#">
+                    <span class="icon"><ion-icon name="trending-up-outline"></ion-icon></span>
+                    <span class="text">statistics</span>
+                    </a>
+                </li>
+    
+                
+                <li class="list">
+                    <a href="#">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <span class="text">About</span>
+                    </a>
+                </li>
+    
+                <div class="ind"></div>
+            </ul>
+        </div>
+    </header>
+
+    <!--------------------------- section 2------------------->
+
+    <section class="section2">
+        <div class="text_about ">
+            <p>Here you can see all the details of my professional life since the beginning of the design of this site until now.</p>
+            <p>I hope you like my site.</p>
+            <p>
+                If you want to know more personal information about me, press down.
+            </p>
+            <p>
+            <div class="button">learn more ...</div>
+            </p>
+        </div>
+        <div class="svg_about">
+            <img src="undraw_profile_re_4a55.svg" alt="">
+            <img src="blob1.svg" alt="">
+        </div>
+
+        <div class="up_to_home" onclick="topFunction()">
+            <ion-icon name="arrow-up-outline"></ion-icon>
+        </div>
+
+        <div class="smile">
+            <div>
+                <p>smile</p>
+                <ion-icon name="heart-circle-outline"></ion-icon>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------------- section 3------------------->
+
+    <section class="section3">
+
+        <div class="svg_about">
+            <img src="undraw_mind_map_re_nlb6.svg" alt="">
+            <img src="blob2.svg" alt="">
+        </div>
+
+        <div class="text_about ">
+            <p>Here you can see all the details of my professional life since the beginning of the design of this site until now.</p>
+            <p>
+                Let's see my roadmap..
+            </p>
+            <p><div class="button">learn more ...</div></p>
+            
+        </div>
+
+        <div class="smile">
+            <div>
+                <p>smile</p>
+                <ion-icon name="heart-circle-outline"></ion-icon>
+            </div>
+        </div>
+    </section>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script>
+
+        const list = document.querySelectorAll('.list');
+        function active(){
+            list.forEach(e => {
+                e.classList.remove('active');
+                this.classList.add("active");
+            })
+        }
+
+        list.forEach(e => {
+            e.addEventListener('click', active);
+        });
+
+        let my_button = document.querySelector(".section2 .up_to_home");
+        let nav=document.querySelector(".header_nav");
+        window.onscroll = function scrollFunction() {
+        if (document.body.scrollTop >50 || document.documentElement.scrollTop > 50) {
+            // my_button.style.display = "flex";
+            my_button.style.opacity = "1";
+            nav.style.background="#1d1d1d";
+            nav.style.boxShadow="0 1px 5px var(--color1)";
+
+        } else {
+            // my_button.style.display = "none";
+            my_button.style.opacity = "0";
+            nav.style.background="transparent";
+            nav.style.boxShadow="0 0px 0px var(--color1) ";
+        }
+        };
+
+        function topFunction() {
+        document.body.scrollTop = 0; 
+        document.documentElement.scrollTop = 0;
+        }
+        
+</script>
+
+</body>
+</html>
