@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb {
 header {
   height: 100vh;
   overflow: hidden;
-  background-image: url("HD\ wallpaper_\ black\,\ white\,\ programming\,\ programming\ language\,\ Python\ \(programming\)\ \(1\).jpg");
+  background-image: url("/images/HD\ wallpaper_\ black\,\ white\,\ programming\,\ programming\ language\,\ Python\ \(programming\)\ \(1\).jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -230,7 +230,7 @@ nav ul a li {
 }
 /* -----------------------end s-nav (650px)-------------------- */
 
-.svgheader {
+.svg_header {
   width: 20%;
   height: 20%;
   min-width: 200px;
@@ -247,7 +247,7 @@ nav ul a li {
   -o-transform: translate(-50%, -50%);
 }
 
-.svgheader img {
+.svg_header img {
   width: 100%;
 }
 
@@ -448,9 +448,6 @@ header .overview div.stat p {
     background: #111111;
     /* background-image: url("9dbd99041687ac1b0dd50e432b628ec0.jpg"); */
   }
-  nav .navimage {
-    display: flex;
-  }
 
   .hi {
     top: 28%;
@@ -464,7 +461,7 @@ header .overview div.stat p {
     -o-transform: translate(-50%, -50%);
   }
 
-  .svgheader {
+  .svg_header {
     top: 38%;
     left: 28%;
     width: 35%;
@@ -720,15 +717,15 @@ header .overview div.stat p {
   margin-left: -1%;
 }
 
-/* -------------------------end section3 about------------------- */
+/* -------------------------end section3 roadmap ------------------- */
 .section4 .svg_about img:nth-child(1) {
   margin-left: 25px;
 }
 
-/* -------------------------end section4 about------------------- */
+/* -------------------------end section4 skills------------------- */
 .section5 {
   height: 100vh;
-  background-image: url("blob-scene-haikei (2).svg");
+  background-image: url("/images/blob-scene-haikei (2).svg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -761,7 +758,7 @@ header .overview div.stat p {
   }
 }
 
-/* --------------------------footer----------------------- */
+/* -------------------------- end section5 projects----------------------- */
 
 footer {
   display: flex;
