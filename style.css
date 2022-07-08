@@ -19,7 +19,7 @@ html {
 body {
   font-family: "Roboto Condensed", sans-serif;
   background: #111111;
-  height: 570vh;
+  height: 700vh;
 }
 
 body::-webkit-scrollbar {
@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb {
 header {
   height: 100vh;
   overflow: hidden;
-  background-image: url("HD\ wallpaper_\ black\,\ white\,\ programming\,\ programming\ language\,\ Python\ \(programming\)\ \(1\).jpg");
+  background-image: url("/images/HD\ wallpaper_\ black\,\ white\,\ programming\,\ programming\ language\,\ Python\ \(programming\)\ \(1\).jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -63,7 +63,7 @@ nav {
 }
 
 nav .logo {
-  width: 20%;
+  width: 15%;
   height: 100%;
   margin-left: 10px;
   color: var(--color4);
@@ -271,12 +271,12 @@ nav ul a li {
 
 /* ------------------------end svg image----------------------- */
 
-header aside {
+/* header aside {
   width: 6%;
   max-width: 50px;
   min-width: 30px;
   height: 100%;
-  /* position: fixed; */
+  /* position: fixed; 
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -313,7 +313,7 @@ header aside li.end span {
   width: 1px;
   height: 100%;
   background: var(--color5);
-}
+} */
 
 /* ---------------------------end aside---------------------- */
 
@@ -725,7 +725,7 @@ header .overview div.stat p {
 /* -------------------------end section4 skills------------------- */
 .section5 {
   height: 100vh;
-  background-image: url("blob-scene-haikei (2).svg");
+  background-image: url("/images/blob-scene-haikei (2).svg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -758,17 +758,155 @@ header .overview div.stat p {
   }
 }
 
-/* -------------------------- end section5 projects----------------------- */
+/* -------------------- end section5 projects----------------- */
 
 footer {
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color3);
+  font-size: 1rem;
+}
+
+footer .email_fan {
+  height: 80%;
+  width: 30%;
+  max-width: 320px;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+footer .email_fan .email {
+  row-gap: 30px;
+  flex-direction: column;
+}
+
+footer .email_fan input {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  outline: none;
+  border: 1px solid var(--color5);
+  background: var(--color1);
+  color: var(--color6);
+}
+
+footer .email_fan .privacy {
+  width: 100%;
+  height: fit-content;
+  color: var(--color5);
+  word-spacing: 2px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+footer div:nth-child(2) {
+  width: 60%;
+  height: 80%;
+}
+
+footer .menu {
+  width: 100%;
+  height: 45%;
+}
+
+footer .menu ul {
+  width: 95%;
+  max-width: 600px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:20px;
+}
+
+footer .menu ul li {
+  width: 20%;
+  height: 30px;
+  max-width: 90px;
+  min-width: 80px;
+  list-style: none;
+  background: var(--color5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+footer .menu ul li:hover {
+  background: var(--color6);
+}
+footer .menu ul li a {
+  text-decoration: none;
+  color: var(--color3);
+}
+
+footer .connect {
+  width: 90%;
+  height: 45%;
+}
+
+footer .connect ul {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  row-gap: 20px;
+}
+
+footer .connect ul li {
+  list-style: none;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+footer .connect ul li a {
+  text-decoration: none;
+  color: var(--color4);
+}
+
+footer .connect ul li ion-icon {
+  font-size: 20px;
+  color: var(--color6);
+}
+
+@media (max-width:767px) {
+  footer div:nth-child(2){
+    flex-direction: row;
+  }
+  
+  footer .menu ul {
+    flex-direction: column;
+  }
+}
+/* -------------------- end footer----------------- */
+
+.end {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 50vh;
 }
 
-footer p {
-  width:90%;
+.end p {
+  width: 90%;
   color: var(--color3);
   text-align: center;
   font-size: 18px;
@@ -777,7 +915,7 @@ footer p {
   letter-spacing: 1px;
 }
 
-footer p span {
+.end p span {
   text-transform: uppercase;
   color: var(--color6);
 }
