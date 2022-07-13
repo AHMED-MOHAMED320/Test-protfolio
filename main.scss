@@ -769,6 +769,7 @@ footer {
 .end {
   @include center;
   height: 50vh;
+  margin-bottom: 50px;
   p {
     width: 90%;
     color: var(--color3);
