@@ -646,13 +646,14 @@ footer {
     font-size: 1rem;
   }
   .email_fan {
-    height: 80%;
+    height: 90%;
     width: 30%;
     max-width: 320px;
     justify-content: space-between;
     flex-direction: column;
     text-align: center;
     row-gap: 15px;
+    font-size: 0.8rem;
     .email {
       row-gap: 30px;
       flex-direction: column;
@@ -748,6 +749,20 @@ footer {
     }
     .menu ul {
       flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  footer {
+    .email_fan {
+      width: 45%;
+    }
+    div:nth-child(2) {
+      width: 45%;
+    }
+    .menu {
+      display: none;
     }
   }
 }
