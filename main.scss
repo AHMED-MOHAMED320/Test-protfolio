@@ -381,7 +381,7 @@ nav {
     .overview {
       height: 23%;
       bottom: 17%;
-      ion-icon {
+      ion-icon:not(.stat) {
       top:8px;
       left:8px;
       position: absolute;
